@@ -1,0 +1,15 @@
+Doocumentación:
+Este es un programa el cual fue sacado de la libreria de freegames para python, el juego que se va a utilizar va a ser el cannon.
+Un juego el cual se basa en un lanzamiento de proyectil atravez de un tiro parabolico, en este una pequeña bola roja es lanzada y tiene que colisionar con los objetivos,
+las bolas azules, el punto del juego es que estas bolas no lleguen a tocar el final de la pantalla o se pierde el juego.
+
+Para este trabajo se nos pidio el realizar dos modificaciones:
+1.- Aumentar la velocidad del proyectil y de los balones.
+2.- Hacer que el juego nunca termine, de manera que los balones al salir de la ventana se re posicionen.
+
+Para lograr esto hicimos unos cambios al codigo inicial, para empezar modificamos la variable spped.y en la linea 57 del codigo,
+ya que esta dicta la velocidad en vertical del proyectil, esta se modifico a un numero más pequeño para elevar su velocidad,
+luego modificamos la variable target.x, esta es la que dicta el nivel de velocidad de los objetivos, aumentamos el valor para que estos vayan más rapido.
+
+Por ultimo para lograr que el nivel fuera infinito removimos el ultimo ciclo de la funcion move, el cual era for targets in target, que causaba que cuando los objetivos
+colisionaran con la pantalla se detuviera el juego.
