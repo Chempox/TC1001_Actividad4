@@ -1,3 +1,6 @@
+Alan Caspeta A01424680
+Juan Pablo Yáñez A00829598
+
 Doocumentación:
 Este es un programa el cual fue sacado de la libreria de freegames para python, el juego que se va a utilizar va a ser el cannon.
 Un juego el cual se basa en un lanzamiento de proyectil atravez de un tiro parabolico, en este una pequeña bola roja es lanzada y tiene que colisionar con los objetivos,
